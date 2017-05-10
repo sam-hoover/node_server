@@ -93,32 +93,32 @@ Folder / File Structure
 If you have downloaded (or cloned) this project, and followed the instructions for installing node and the necessary packages, your file structure should now look like this:
 
 your-project-name/ <br />
-    client/ <br />
-        scripts/ <br />
-            index.js <br />
-            quotes.js <br />
-            whatever-scripts-you-need <br />
-        style/ <br />
-            index.css <br />
-            quotes.css <br />
-            whatever-css-files-you-need <br />
-        views/ <br />
-            index.html <br />
-            quotes.html <br />
-            whatever-html-files-you-need <br />
-    data/ <br />
-        db/ <br />
-            your-database <br />
-    lib/ <br />
-        socket.js <br />
-        database.js <br />
-    node_modules/ <br />
-    routes/ <br />
-        index.js <br />
-        quotes.js <br />
-        whatever-routes-you-need <br />
-    package.json <br />
-    server.js <br />
+&nbsp;&nbsp;&nbsp;&nbsp;client/ <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;scripts/ <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index.js <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quotes.js <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;whatever-scripts-you-need <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;style/ <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index.css <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quotes.css <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;whatever-css-files-you-need <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;views/ <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ndex.html <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quotes.html <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;whatever-html-files-you-need <br />
+&nbsp;&nbsp;&nbsp;&nbsp;data/ <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;db/ <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;your-database <br />
+&nbsp;&nbsp;&nbsp;&nbsp;lib/ <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;socket.js <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;database.js <br />
+&nbsp;&nbsp;&nbsp;&nbsp;node_modules/ <br />
+&nbsp;&nbsp;&nbsp;&nbsp;routes/ <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index.js <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quotes.js <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;whatever-routes-you-need <br />
+&nbsp;&nbsp;&nbsp;&nbsp;package.json <br />
+&nbsp;&nbsp;&nbsp;&nbsp;server.js <br />
 
 
 Base Directory (your-project-name)
