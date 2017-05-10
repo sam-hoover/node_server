@@ -68,7 +68,7 @@ This step is optional and only required if you need a database for your webserve
 
 Once installed, go back to the Terminal and create a directory named *data*. Navigate into that directory and create another directory named *db*. Now navigate back to your project directory and run
 ```
-$ mongod --dbpath your-project-directory/data/db
+$ mongod --dbpath ~/path-to-your-project/your-project-directory/data/db
 ```
 If you're on Windows (I'm sorry!) replace "mongod" with "C:\Program Files\MongoDB\Server\3.4\bin\mongo.exe". This will instaniate your mongo database.
 
