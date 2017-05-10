@@ -92,33 +92,33 @@ Folder / File Structure
 
 If you have downloaded (or cloned) this project, and followed the instructions for installing node and the necessary packages, your file structure should now look like this:
 
-your-project-name/ ...
-    client/ ...
-        scripts/ ...
-            index.js ...
-            quotes.js ...
-            whatever-scripts-you-need ...
-        style/
-            index.css
-            quotes.css
-            whatever-css-files-you-need
-        views/
-            index.html
-            quotes.html
-            whatever-html-files-you-need
-    data/
-        db/
-            your-database
-    lib/
-        socket.js
-        database.js
-    node_modules/
-    routes/
-        index.js
-        quotes.js
-        whatever-routes-you-need
-    package.json
-    server.js
+your-project-name/ <br />
+    client/ <br />
+        scripts/ <br />
+            index.js <br />
+            quotes.js <br />
+            whatever-scripts-you-need <br />
+        style/ <br />
+            index.css <br />
+            quotes.css <br />
+            whatever-css-files-you-need <br />
+        views/ <br />
+            index.html <br />
+            quotes.html <br />
+            whatever-html-files-you-need <br />
+    data/ <br />
+        db/ <br />
+            your-database <br />
+    lib/ <br />
+        socket.js <br />
+        database.js <br />
+    node_modules/ <br />
+    routes/ <br />
+        index.js <br />
+        quotes.js <br />
+        whatever-routes-you-need <br />
+    package.json <br />
+    server.js <br />
 
 
 Base Directory (your-project-name)
