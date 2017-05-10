@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Home Page</title>
+        <link href="/client/style/quotes.css" rel="stylesheet" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="/node_modules/socket.io-client/dist/socket.io.js"></script>
+        <script type="text/javascript" src="/client/scripts/quotes.js"></script>
+    </head>
+    <body>
+        <section class="row">
+            <div class="container">
+                <div class="col-sm-12">
+                    <h1>Add a quote</h1>
+                </div>
+            </div>
+        </section>
+        <section class="row">
+            <div class="container">
+                <div class="col-sm-2">
+                    <p>Quote:</p>
+                </div>
+                <div class="col-sm-4">
+                    <input class="input_field" id="quote"></input>
+                </div>
+            </div>
+        </section>
+        <section class="row">
+            <div class="container">
+                <div class="col-sm-2">
+                    <p>Author:</p>
+                </div>
+                <div class="col-sm-4">
+                    <input class="input_field" id="author"></input>
+                </div>
+            </div>
+        </section>
+        <section class="row">
+            <div class="container">
+                <div class="col-sm-8">
+                    <button type="button" class="btn" onclick="addQuote()">Add</button>
+                </div>
+            </div>
+        </section>
+        <section class="row">
+            <div class="container">
+                <div class="col-sm-8">
+                    <label class="output_field"></label>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

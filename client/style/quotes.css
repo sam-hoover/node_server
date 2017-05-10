@@ -1,0 +1,14 @@
+.row .container {
+    display: flex;
+    /*align-items: center;*/
+}
+
+.input_field {
+    margin: 0 0 0 5px;
+    box-shadow: 0 0 0px 1000px white inset;
+}
+
+.output_field {
+    padding: 15px, 0;
+    margin: 15px 0;
+}
