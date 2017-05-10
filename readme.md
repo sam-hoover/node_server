@@ -66,7 +66,11 @@ This step is optional and only required if you need a database for your webserve
 
 [Download mongo](https://www.mongodb.com/download-center?jmp=nav#community). The community version should suffice. This link also contains instructions for installing via Homebrew.
 
-Once installed, go back to the Terminal and create a directory named *data*. Navigate into that directory and create another directory named *db*. Now navigate back to your project directory and run
+Once installed, go back to the Terminal and run:
+```
+$ npm install mongodb
+```
+Then create a directory named *data*. Navigate into that directory and create another directory named *db*. Now navigate back to your project directory and run:
 ```
 $ mongod --dbpath ~/path-to-your-project/your-project-directory/data/db
 ```
